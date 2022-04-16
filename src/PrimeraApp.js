@@ -14,10 +14,10 @@ const PrimeraApp = ({saludo, subtitulo}) => {
     );
 }
 PrimeraApp.propTypes ={
-    saludo: PropTypes.string.isRequired
+    saludo: PropTypes.string.isRequired // Es requerido/necesario
 }
 PrimeraApp.defaultProps = {
-    subtitulo: 'Soy un subtitulo'
+    subtitulo: 'Soy un subtitulo' // Valor por defecto
 } 
 
 export default PrimeraApp;
